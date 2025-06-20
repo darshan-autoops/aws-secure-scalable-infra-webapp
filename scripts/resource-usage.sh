@@ -85,3 +85,4 @@ echo "Uploading to S3: $S3_BUCKET..."
 aws s3 cp $OUTPUT_FILE s3://$S3_BUCKET/
 
 echo "Upload complete! File available at s3://$S3_BUCKET/$OUTPUT_FILE"
+
